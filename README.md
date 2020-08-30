@@ -1,1 +1,1 @@
-# Omega Next
+# Next Template
