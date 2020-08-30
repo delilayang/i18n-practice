@@ -6,19 +6,7 @@ import { rgba } from "polished";
 import Section from "../components/Section";
 import PageWrapper from "../components/PageWrapper";
 
-import imgIcon from "../assets/image/png/heart-shape.png";
 import { Title, Text } from "../components/Core";
-
-const ContentIcon = styled.div`
-  width: 118px;
-  height: 118px;
-  background-color: ${({ theme }) => rgba(theme.colors.primary, 0.1)};
-  border-radius: 500px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 48px;
-`;
 
 const ButtonStyled = styled.button`
   min-width: 250px;
@@ -55,9 +43,6 @@ const NotFoundPage = () => {
           <div className="pt-5"></div>
           <Container>
             <div className="text-center">
-              <ContentIcon>
-                <img src={imgIcon} alt="" className="img-fluid" />
-              </ContentIcon>
               <div>
                 <Title variant="hero">404 Error!</Title>
                 <Text>
